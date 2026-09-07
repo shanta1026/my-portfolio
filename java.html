@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Project</title>
+    
+</head>
+<body style="text-align: center;">
+   <h1 class="text-primary" style="color: purple; font-size: 2opxpx;">
+     Smart Pharmacy Management & Profit Analysis System 
+    </h1><hr>
+<h4 style="text-align: left; color: rgb(102,90,12);">SCENARIO :</h4> <br>
+3 friends- <b style="color: rgb(247, 94, 5);">Mysha , Radifa & Taspia</b> jointly established
+a pharmacy investing a fixed principal amount. Their goal is not only to manage the 
+pharmacy efficiently but also to determine whether the business is profitable enough to continue.
+<br><br>
+<b style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 15px; color: purple; text-align: left;">The system manages different types of medicines, such as OTC Medicines and Prescription Medicines. OTC medicines include categories like Painkillers and Stomach Medicines, while Prescription Medicines require a doctor's prescription before sale.
+Each medicine stores information such as Medicine ID, Name, Company, Purchase Price, Selling Price, Stock Quantity, and Expiry Date. When a customer buys medicine, the system updates the stock automatically, records the sale, and calculates the profit based on the purchase and selling prices.
+To demonstrate inheritance, the project uses the following hierarchy:</b><hr>
+<img src="Pharma.jpeg" width="250px" >
+<hr>
+For example, Painkiller inherits from OTCMedicine, and OTCMedicine inherits from Medicine, which demonstrates multilevel inheritance.
+All medicine information is stored using the Java Collections Framework (ArrayList). The system uses encapsulation by keeping all data members private and accessing them through getter and setter methods.
+If a user enters an invalid price, negative stock, or tries to sell more medicine than is available in stock, the system handles these situations using exception handling.
+The application also includes a simple Java Swing GUI, where the pharmacist can:
+<ul style="color: rgb(156, 12, 12);" >
+<li>Add Medicine</li>
+ <li>View Medicine</li>
+<li>Sell Medicine</li>
+<li>Search Medicine</li>
+<li>Update Stock</li>
+<li>View Profit Report</li>
+</ul>
+At the end of the evaluation period, the system calculates the total profit. If the profit is at least 1.5 times the principal investment, the pharmacy will continue operating. Otherwise, the system will recommend closing the pharmacy.
+This project follows Object-Oriented Programming principles by applying classes, objects, constructors, encapsulation, inheritance, multilevel inheritance, polymorphism, dynamic binding, exception handling, Java Collections Framework, packages, and an event-driven GUI.
+</body>
+</html>

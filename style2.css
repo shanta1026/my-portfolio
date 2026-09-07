@@ -1,0 +1,50 @@
+
+html{
+  scroll-behavior: smooth;
+}
+.my{
+  background-image: url("studentpic3.jpg.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top;background-size: contain;
+  margin-right: 200px;min-height:500px;padding-right: 100px;
+  background-attachment:scroll;font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+.gridd{
+    background-color:lightgray;
+}
+.contact{
+  font-size: larger;
+  margin-top: 20px;
+}
+.html {
+    color: #E34F26;
+}
+
+.css {
+    color: #1572B6;
+}
+
+.js {
+    color: #F7DF1E;
+}
+
+.bootstrap {
+    color: #7952B3;
+}
+.word {
+    color: #2B579A;
+}
+.java {
+    color: #f38705; 
+}
+
+.video {
+    color: #9b59b6; 
+}
+.PowerPoint {
+    color: #D24726 !important;
+}
+
+.excel {
+    color: #217346;
+}
